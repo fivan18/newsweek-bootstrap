@@ -26,3 +26,10 @@ ul {
         left: -9999px;
     }
 }
+@media screen and (max-width: 768px) {
+    .newsweek-title, .header-date, nav.bg-light {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+}
