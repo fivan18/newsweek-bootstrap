@@ -1,50 +1,58 @@
-body {
-    background-color: #f4f5f6;
-}
 /* header */
 header {
     font-family: 'Roboto Condensed', sans-serif;
-}
-.container-fluid{
+  }
+  
+  .container-fluid {
     max-width: 1310px;
-}
-.title{
+  }
+  
+  .title {
     padding: 20px 30px 15px;
     background-color: #f72210;
-}
-.title date {
+  }
+  
+  .title date {
     font-size: 16px;
     color: white;
-}
-#newsweek-title{
+  }
+  
+  #newsweek-title {
     width: 396px;
     height: 60px;
     fill: white;
-}
-.h-subscribe, .h-sign-in {
+  }
+  
+  .h-subscribe,
+  .h-sign-in {
     font-weight: bold;
     font-size: 18px;
     display: inline-block;
     padding: 2px 12px;
-}
-.h-sign-in {
+  }
+  
+  .h-sign-in {
     color: white;
-}
-.h-subscribe {
+  }
+  
+  .h-subscribe {
     background-color: white;
     color: #f72210;
-}
-#h-icon-arrow {
+  }
+  
+  #h-icon-arrow {
     display: inline-block;
     width: 8px;
     height: 14px;
     margin-left: 10px;
     fill: #f72210;
-}
-.bg-light {
-    background-color: white!important;
-}
-.separation::before{
+  }
+  
+  .bg-light {
+    background-color: white !important;
+  }
+  
+  .separation::before {
     position: absolute;
     top: 0;
     right: 0;
@@ -54,23 +62,28 @@ header {
     background-color: #f72210;
     border-left: 12px solid white;
     border-top: 13px solid #f72210;
-}
-.separation a{
+  }
+  
+  .separation a {
     font-weight: bold;
     font-size: 20px;
     border-right: 1px solid #d9d9d9;
     padding-right: 15px;
-}
-.last-a{
+  }
+  
+  .last-a {
     border-right: 0 none white !important;
-}
-.navbar-light .navbar-brand:hover{
+  }
+  
+  .navbar-light .navbar-brand:hover {
     color: #f72210;
-}
-.search-icon{
+  }
+  
+  .search-icon {
     background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
     width: 20px;
     height: 20px;
     clip: auto;
     font-size: 0;
-}
+  }
+  
