@@ -3,10 +3,6 @@ header {
     font-family: 'Roboto Condensed', sans-serif;
   }
   
-  .container-fluid {
-    max-width: 1310px;
-  }
-  
   .title {
     padding: 20px 30px 15px;
     background-color: #f72210;

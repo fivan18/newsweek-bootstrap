@@ -9,3 +9,7 @@ ul {
     margin: 0;
     padding: 0;
 }
+.hole-container {
+    max-width: 1310px;
+    margin: 0 auto;
+}
