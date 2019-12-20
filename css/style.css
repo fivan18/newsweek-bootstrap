@@ -13,3 +13,16 @@ ul {
     max-width: 1310px;
     margin: 0 auto;
 }
+
+@media screen and (min-width: 996px) {
+    .newsweek-title-small, .nav-toggle-icon{
+        display: none;
+    }
+}
+@media screen and (max-width: 996px) and (min-width: 768px) {
+    .newsweek-title, .header-date, nav.bg-light {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+}
