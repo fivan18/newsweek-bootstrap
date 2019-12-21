@@ -1,0 +1,40 @@
+main h4 {
+    font-size: 22px;
+    line-height: 24px;
+    font-family: "Roboto Condensed",sans-serif;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: black;
+}
+main p{
+    font-size: 15px;
+    line-height: 20px;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #333;
+}
+.culture-travel h4{
+    color: #272727;
+    font: 20px/22px "Lora",serif;
+}
+.culture-travel p {
+    font: 15px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
+    color: rgba(39,39,39,.5);
+    margin-bottom: 10px;
+}
+.culture-travel-category {
+    display: inline-block;
+    background-color: #c2d4d7;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    font: 300 13px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
+}
+.more-stories h4{
+    font-size: 17px;
+    line-height: 20px;
+}
+.more-stories p {
+    font-size: 15px;
+    line-height: 20px;
+}
