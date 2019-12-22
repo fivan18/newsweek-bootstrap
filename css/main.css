@@ -1,3 +1,8 @@
+main h2 {
+    font: bold 19px/19px "Roboto Condensed",sans-serif;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
 main h4 {
     font-size: 22px;
     line-height: 24px;
@@ -49,4 +54,23 @@ main p{
     text-align: center;
     background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
     color: #e9212e;
+}
+.icon-n {
+    position: relative;
+    margin-right: 13px;
+    display: block;
+    width: 29px;
+    height: 28px;
+    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+.icon-n::after {
+    border-bottom: 3px solid red;
+    border-right: 3px solid red;
+    display: block;
+    content: "";
+    width: 26px;
+    height: 25px;
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
 }
