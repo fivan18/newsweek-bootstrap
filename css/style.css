@@ -48,6 +48,17 @@ a {
 .hole-img-size {
     width: 100%;
 }
+.img-size-35{
+    width:35%;
+}
+.text-size-20 {
+    font-size: 20px;
+}
+.block-title-red {
+    color: #f72210;
+    display: block;
+    font: bold 22px/22px "Roboto Condensed",sans-serif;
+}
 
 @media screen and (min-width: 996px) {
     .newsweek-title-small, .nav-toggle-icon{
