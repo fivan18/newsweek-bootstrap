@@ -60,20 +60,20 @@ a {
     font: bold 22px/22px "Roboto Condensed",sans-serif;
 }
 
-@media screen and (min-width: 996px) {
-    .newsweek-title-small, .nav-toggle-icon{
-        display: none;
-    }
+@media screen and (min-width: 991px) {
 }
-@media screen and (max-width: 996px) and (min-width: 768px) {
-    .newsweek-title, .header-date, nav.bg-light {
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    nav.nav-bar {
         position: absolute;
         top: -9999px;
         left: -9999px;
     }
 }
 @media screen and (max-width: 768px) {
-    .newsweek-title, .header-date, nav.bg-light {
+    header .h-sign-in, header .h-subscribe {
+        font-size: 13px;
+    }
+    nav.nav-bar {
         position: absolute;
         top: -9999px;
         left: -9999px;
