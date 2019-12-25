@@ -52,6 +52,15 @@ a {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
+.category-sponsor {
+  display: block;
+  font: bold 17px/16px "Roboto Condensed", sans-serif;
+  color: #3581f4;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9); 
+}
+
 .bg-hole-page {
   background-color: #f4f5f6;
 }
