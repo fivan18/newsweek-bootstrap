@@ -2,22 +2,23 @@
 header {
   font-family: 'Roboto Condensed', sans-serif;
 }
-  
+
 .title {
   padding: 20px 30px 15px;
   background-color: #f72210;
 }
-  
+
 .title time {
   font-size: 16px;
   color: white;
 }
-  
+
 #newsweek-title {
   width: 396px;
   height: 60px;
   fill: white;
 }
+
 #newsweek-title-small {
   display: block;
   width: 132px;
@@ -90,7 +91,10 @@ header {
   clip: auto;
   font-size: 0;
 }
-.nav-toggle > span, .nav-toggle::after, .nav-toggle::before {
+
+.nav-toggle > span,
+.nav-toggle::after,
+.nav-toggle::before {
   content: "";
   display: block;
   width: 30px;
@@ -98,8 +102,9 @@ header {
   background-color: #fb9a94;
   margin: 4px auto;
 }
+
 .nav-toggle-icon {
-  margin-left: 20px;;
+  margin-left: 20px;
 }
 
 .search-enter {
@@ -107,4 +112,3 @@ header {
   width: 63px;
   border: none;
 }
-  
