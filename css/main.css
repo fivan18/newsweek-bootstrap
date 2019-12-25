@@ -144,3 +144,50 @@ main p{
     width: 170px;
     height: 100%;
 }
+.bg-subscribe {
+    background-color: #f4f5f6;
+}
+.images-container {
+    position: relative;
+    padding-bottom: 13px;
+    padding-right: 90px;
+}
+.img-prev {
+    width: 170px;
+    height: 228px;
+}
+.img-current {
+    position: absolute;
+    top: 13px;
+    left: 80px;
+    width: 170px;
+    height: 228px;
+}
+.b-subscribe {
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    padding: 2px 12px;
+    background-color: #f72210;
+    color: white;
+}
+#b-icon-arrow {
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    margin-left: 10px;
+    fill: white;
+}
+.img-starting-5 {
+    background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) center center / cover no-repeat;
+    max-width: 191px;
+    width: 48%;
+}
+.subscribe-newsletter-title {
+    color: #f72210;
+    display: block;
+    font: bold 18px/18px "Roboto Condensed",sans-serif;
+}
+.h-100-calc {
+    height: calc(100% - 26px);
+}

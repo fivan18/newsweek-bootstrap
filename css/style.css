@@ -20,7 +20,7 @@ a {
     margin: 0 auto;
 }
 .well {
-    min-height: 500px;
+    /*min-height: 500px;*/
     border: 1px solid black;
 }
 .block-title {
@@ -77,5 +77,10 @@ a {
         position: absolute;
         top: -9999px;
         left: -9999px;
+    }
+    article .img-starting-5{
+        height: 160px;
+        width: 100%;
+        max-width: 100%;
     }
 }
