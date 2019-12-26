@@ -2,7 +2,7 @@ body {
   background-color: #f4f5f6;
 }
 
-main {
+main, footer {
   background-color: white;
 }
 
@@ -26,7 +26,7 @@ a {
 }
 
 .well {
-  /* min-height: 500px; */
+  min-height: 500px;
   border: 1px solid black;
 }
 
@@ -83,27 +83,10 @@ a {
   font: bold 22px/22px "Roboto Condensed", sans-serif;
 }
 
-/* @media screen and (min-width: 991px) {
-} */
-
-@media screen and (max-width: 991px) and (min-width: 768px) {
-  nav.nav-bar {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-  }
-}
-
 @media screen and (max-width: 768px) {
   header .h-sign-in,
   header .h-subscribe {
     font-size: 13px;
-  }
-
-  nav.nav-bar {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
   }
 
   article .img-starting-5 {

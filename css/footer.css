@@ -1,0 +1,30 @@
+.brand {
+    display: block;
+    width: 236px;
+    height: 36px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+    fill: #f72210;
+}
+.copyright {
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: 12px;
+}
+.social-media i {
+    font-size: 26px;
+}
+.social-media li {
+    margin-left: 12px;
+}
+
+.links li {
+    border-right: 1px solid #d9d9d9;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin: 6px 0;
+    cursor: pointer;
+    color: #666;
+}
